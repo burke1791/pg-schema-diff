@@ -16,6 +16,7 @@ func init() {
 	rootCmd.AddCommand(buildPlanCmd())
 	rootCmd.AddCommand(buildApplyCmd())
 	rootCmd.AddCommand(buildVersionCmd())
+	rootCmd.AddCommand(buildExportCmd())
 }
 
 func main() {
